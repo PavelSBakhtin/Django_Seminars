@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'seminar1.apps.Seminar1Config',
+    'seminar2.apps.Seminar2Config',
 ]
 
 MIDDLEWARE = [
@@ -167,6 +168,11 @@ LOGGING = {
             'level': 'INFO',
         },
         'seminar1': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'seminar2': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
