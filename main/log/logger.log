@@ -189,3 +189,118 @@ INFO "GET /seminar3/sorted_basket/1/2 HTTP/1.1" 301 0
 INFO "GET /seminar3/sorted_basket/1/2/ HTTP/1.1" 200 259
 INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\seminar3\urls.py changed, reloading.
 INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\seminar3\urls.py changed, reloading.
+INFO "GET /seminar4 HTTP/1.1" 301 0
+INFO <WSGIRequest: GET '/seminar4/'> request received
+INFO "GET /seminar4/ HTTP/1.1" 200 162
+INFO "GET / HTTP/1.1" 200 10
+WARNING Not Found: /home
+WARNING "GET /home HTTP/1.1" 404 2763
+INFO <WSGIRequest: GET '/seminar4/'> request received
+INFO "GET /seminar4/ HTTP/1.1" 200 162
+INFO "GET /seminar4/home HTTP/1.1" 301 0
+INFO <WSGIRequest: GET '/seminar4/home/'> request received
+INFO "GET /seminar4/home/ HTTP/1.1" 200 161
+INFO "GET /seminar4/form1 HTTP/1.1" 301 0
+INFO "GET /seminar4/form1/ HTTP/1.1" 200 769
+INFO "POST /seminar4/form1/ HTTP/1.1" 200 154
+INFO "GET /seminar4/form1/ HTTP/1.1" 200 769
+INFO "POST /seminar4/form1/ HTTP/1.1" 200 175
+INFO "GET /seminar4/form1/ HTTP/1.1" 200 769
+INFO "POST /seminar4/form1/ HTTP/1.1" 200 154
+INFO "POST /seminar4/form1/ HTTP/1.1" 200 154
+INFO "GET /seminar4/form1/ HTTP/1.1" 200 769
+INFO "POST /seminar4/form1/ HTTP/1.1" 200 155
+INFO "GET /seminar4/form2/ HTTP/1.1" 200 763
+INFO "GET /seminar4/form3/ HTTP/1.1" 200 1698
+INFO "GET /seminar4/form4/ HTTP/1.1" 200 5562
+INFO <WSGIRequest: GET '/seminar4/form5/'> request received
+INFO "GET /seminar4/form5/ HTTP/1.1" 200 162
+INFO "GET /seminar4/form5/1 HTTP/1.1" 301 0
+INFO "GET /seminar4/form5/1/ HTTP/1.1" 200 564
+INFO "GET /seminar4/form6 HTTP/1.1" 301 0
+INFO "GET /seminar4/form6/ HTTP/1.1" 200 564
+INFO <WSGIRequest: GET '/seminar4/form5/'> request received
+INFO "GET /seminar4/form5/ HTTP/1.1" 200 162
+INFO "GET /seminar4/form5/1/ HTTP/1.1" 200 564
+INFO "POST /seminar4/form5/1/ HTTP/1.1" 200 169
+INFO "GET /seminar4/products HTTP/1.1" 301 0
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO "GET /seminar4/products/ HTTP/1.1" 200 3173
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/product/4/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/product/3/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/product/3/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/upload HTTP/1.1" 301 0
+INFO "GET /seminar4/upload/ HTTP/1.1" 200 615
+INFO "POST /seminar4/upload/ HTTP/1.1" 200 218
+INFO "GET /seminar4/product/1 HTTP/1.1" 301 0
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\views.py changed, reloading.
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING Not Found: /media/ 
+WARNING "GET /media/%20 HTTP/1.1" 404 2942
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 271
+WARNING Not Found: /media/product-1.jpg
+WARNING "GET /media/product-1.jpg HTTP/1.1" 404 2974
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 271
+WARNING Not Found: /media/product-1.jpg
+WARNING "GET /media/product-1.jpg HTTP/1.1" 404 2974
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 271
+WARNING Not Found: /media/product-1.jpg
+WARNING "GET /media/product-1.jpg HTTP/1.1" 404 2974
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2784
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO "GET /seminar4/product/1/ HTTP/1.1" 200 271
+INFO "GET /media/product-1.jpg HTTP/1.1" 200 29095
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO "GET /seminar4/products/ HTTP/1.1" 200 3274
+INFO "GET /media/product-1.jpg HTTP/1.1" 304 0
+INFO "GET /media/product-2.jpg HTTP/1.1" 200 21764
+INFO "GET /media/product-3.jpg HTTP/1.1" 200 20601
+INFO "GET /media/product-5.jpg HTTP/1.1" 200 21340
+INFO "GET /media/product-6.jpg HTTP/1.1" 200 27557
+INFO "GET /media/product-4.jpg HTTP/1.1" 200 35305
+INFO "GET /media/product-8.jpg HTTP/1.1" 200 30108
+INFO "GET /media/product-7.jpg HTTP/1.1" 200 38512
+INFO "GET /media/product-9.jpg HTTP/1.1" 200 22795
+INFO "GET /media/product-10.jpg HTTP/1.1" 200 47970
+INFO "GET /seminar4/product/10/ HTTP/1.1" 200 274
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO "GET /seminar4/products/ HTTP/1.1" 200 3274
+INFO "GET /seminar4/product/2/ HTTP/1.1" 200 271

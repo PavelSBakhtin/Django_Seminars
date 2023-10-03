@@ -1,200 +1,49 @@
-INFO 03-10-2023 12:58:42 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 12:58:59 basehttp "GET / HTTP/1.1" 200 10
-INFO 03-10-2023 12:59:45 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 12:59:49 basehttp "GET / HTTP/1.1" 200 10
-WARNING 03-10-2023 13:00:14 log Not Found: /heads_tails/
-WARNING 03-10-2023 13:00:14 basehttp "GET /heads_tails/ HTTP/1.1" 404 2334
-INFO 03-10-2023 13:00:35 basehttp "GET /admin HTTP/1.1" 301 0
-INFO 03-10-2023 13:00:35 basehttp "GET /admin/ HTTP/1.1" 302 0
-INFO 03-10-2023 13:00:35 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
-INFO 03-10-2023 13:00:35 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 21207
-INFO 03-10-2023 13:00:35 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
-INFO 03-10-2023 13:00:35 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
-INFO 03-10-2023 13:00:35 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
-INFO 03-10-2023 13:00:35 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
-INFO 03-10-2023 13:00:35 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
-INFO 03-10-2023 13:00:35 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
-INFO 03-10-2023 13:01:06 basehttp "GET /seminar1 HTTP/1.1" 301 0
-INFO 03-10-2023 13:01:06 views <WSGIRequest: GET '/seminar1/'> request received
-INFO 03-10-2023 13:01:06 basehttp "GET /seminar1/ HTTP/1.1" 200 13
-INFO 03-10-2023 13:01:27 basehttp "GET /seminar1/heads_tails HTTP/1.1" 301 0
-INFO 03-10-2023 13:01:27 views <WSGIRequest: GET '/seminar1/heads_tails/'> request received!
-INFO 03-10-2023 13:01:27 basehttp "GET /seminar1/heads_tails/ HTTP/1.1" 200 10
-INFO 03-10-2023 13:01:30 views <WSGIRequest: GET '/seminar1/heads_tails/'> request received!
-INFO 03-10-2023 13:01:30 basehttp "GET /seminar1/heads_tails/ HTTP/1.1" 200 8
-INFO 03-10-2023 13:01:31 views <WSGIRequest: GET '/seminar1/heads_tails/'> request received!
-INFO 03-10-2023 13:01:31 basehttp "GET /seminar1/heads_tails/ HTTP/1.1" 200 10
-INFO 03-10-2023 13:01:32 views <WSGIRequest: GET '/seminar1/heads_tails/'> request received!
-INFO 03-10-2023 13:01:32 basehttp "GET /seminar1/heads_tails/ HTTP/1.1" 200 8
-INFO 03-10-2023 13:01:33 views <WSGIRequest: GET '/seminar1/heads_tails/'> request received!
-INFO 03-10-2023 13:01:33 basehttp "GET /seminar1/heads_tails/ HTTP/1.1" 200 8
-INFO 03-10-2023 13:01:34 views <WSGIRequest: GET '/seminar1/heads_tails/'> request received!
-INFO 03-10-2023 13:01:34 basehttp "GET /seminar1/heads_tails/ HTTP/1.1" 200 10
-INFO 03-10-2023 13:01:45 basehttp "GET /seminar1/dice HTTP/1.1" 301 0
-INFO 03-10-2023 13:01:45 views <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO 03-10-2023 13:01:45 basehttp "GET /seminar1/dice/ HTTP/1.1" 200 1
-INFO 03-10-2023 13:01:47 views <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO 03-10-2023 13:01:47 basehttp "GET /seminar1/dice/ HTTP/1.1" 200 1
-INFO 03-10-2023 13:01:48 views <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO 03-10-2023 13:01:48 basehttp "GET /seminar1/dice/ HTTP/1.1" 200 1
-INFO 03-10-2023 13:01:48 views <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO 03-10-2023 13:01:48 basehttp "GET /seminar1/dice/ HTTP/1.1" 200 1
-INFO 03-10-2023 13:01:49 views <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO 03-10-2023 13:01:49 basehttp "GET /seminar1/dice/ HTTP/1.1" 200 1
-INFO 03-10-2023 13:01:49 views <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO 03-10-2023 13:01:49 basehttp "GET /seminar1/dice/ HTTP/1.1" 200 1
-INFO 03-10-2023 13:02:02 basehttp "GET /seminar1/rand HTTP/1.1" 301 0
-INFO 03-10-2023 13:02:02 views <WSGIRequest: GET '/seminar1/rand/'> request received
-INFO 03-10-2023 13:02:02 basehttp "GET /seminar1/rand/ HTTP/1.1" 200 2
-INFO 03-10-2023 13:02:03 views <WSGIRequest: GET '/seminar1/rand/'> request received
-INFO 03-10-2023 13:02:03 basehttp "GET /seminar1/rand/ HTTP/1.1" 200 2
-INFO 03-10-2023 13:02:04 views <WSGIRequest: GET '/seminar1/rand/'> request received
-INFO 03-10-2023 13:02:04 basehttp "GET /seminar1/rand/ HTTP/1.1" 200 2
-INFO 03-10-2023 13:02:04 views <WSGIRequest: GET '/seminar1/rand/'> request received
-INFO 03-10-2023 13:02:04 basehttp "GET /seminar1/rand/ HTTP/1.1" 200 2
-INFO 03-10-2023 13:02:12 basehttp "GET /seminar1/home HTTP/1.1" 301 0
-INFO 03-10-2023 13:02:12 views <WSGIRequest: GET '/seminar1/home/'> request received
-INFO 03-10-2023 13:02:12 basehttp "GET /seminar1/home/ HTTP/1.1" 200 131
-INFO 03-10-2023 13:02:21 basehttp "GET /seminar1/about HTTP/1.1" 301 0
-INFO 03-10-2023 13:02:21 views <WSGIRequest: GET '/seminar1/about/'> request received
-INFO 03-10-2023 13:02:21 basehttp "GET /seminar1/about/ HTTP/1.1" 200 131
-INFO 03-10-2023 13:46:28 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 13:48:46 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 13:48:56 basehttp "GET /seminar2 HTTP/1.1" 301 0
-INFO 03-10-2023 13:48:56 views <WSGIRequest: GET '/seminar2/'> request received
-INFO 03-10-2023 13:48:56 basehttp "GET /seminar2/ HTTP/1.1" 200 17
-INFO 03-10-2023 13:50:54 basehttp "GET / HTTP/1.1" 200 10
-INFO 03-10-2023 13:51:27 basehttp "GET /seminar2/heads_tails HTTP/1.1" 301 0
-INFO 03-10-2023 13:51:27 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:27 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:32 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:32 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:33 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:33 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:34 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:34 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:34 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:34 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:35 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:35 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:35 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:35 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:35 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:35 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:36 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:36 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:36 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:36 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:36 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:37 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:38 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:39 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:40 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:40 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:42 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:42 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:42 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:43 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:46 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:46 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:49 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:49 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:51 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:51 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:53 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:53 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:54 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:54 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:51:58 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 13:51:58 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 13:52:08 views <WSGIRequest: GET '/seminar2/comments/'> request received
-INFO 03-10-2023 13:52:08 basehttp "GET /seminar2/comments/ HTTP/1.1" 200 0
-INFO 03-10-2023 14:04:51 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 14:05:14 views <WSGIRequest: GET '/seminar2/heads_tails/?n=4'> request received
-INFO 03-10-2023 14:05:15 basehttp "GET /seminar2/heads_tails/?n=4 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:18 views <WSGIRequest: GET '/seminar2/heads_tails/?n=4'> request received
-INFO 03-10-2023 14:05:18 basehttp "GET /seminar2/heads_tails/?n=4 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:19 views <WSGIRequest: GET '/seminar2/heads_tails/?n=4'> request received
-INFO 03-10-2023 14:05:19 basehttp "GET /seminar2/heads_tails/?n=4 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:24 views <WSGIRequest: GET '/seminar2/heads_tails/?n=4'> request received
-INFO 03-10-2023 14:05:24 basehttp "GET /seminar2/heads_tails/?n=4 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:25 views <WSGIRequest: GET '/seminar2/heads_tails/?n=4'> request received
-INFO 03-10-2023 14:05:25 basehttp "GET /seminar2/heads_tails/?n=4 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:28 views <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
-INFO 03-10-2023 14:05:28 basehttp "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:30 views <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
-INFO 03-10-2023 14:05:30 basehttp "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:30 views <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
-INFO 03-10-2023 14:05:31 basehttp "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:31 views <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
-INFO 03-10-2023 14:05:31 basehttp "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:32 views <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
-INFO 03-10-2023 14:05:32 basehttp "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:33 views <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
-INFO 03-10-2023 14:05:33 basehttp "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:33 views <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
-INFO 03-10-2023 14:05:33 basehttp "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
-INFO 03-10-2023 14:05:36 views <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
-INFO 03-10-2023 14:05:36 basehttp "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
-INFO 03-10-2023 14:12:03 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 14:12:53 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 14:19:12 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 14:19:27 views <WSGIRequest: GET '/seminar2/heads_tails/'> request received
-INFO 03-10-2023 14:19:27 basehttp "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
-INFO 03-10-2023 14:19:37 views <WSGIRequest: GET '/seminar2/comments/'> request received
-INFO 03-10-2023 14:19:37 basehttp "GET /seminar2/comments/ HTTP/1.1" 200 0
-INFO 03-10-2023 14:19:48 basehttp "GET /seminar2/articles HTTP/1.1" 301 0
-INFO 03-10-2023 14:19:48 views <WSGIRequest: GET '/seminar2/articles/'> request received
-INFO 03-10-2023 14:19:48 basehttp "GET /seminar2/articles/ HTTP/1.1" 200 0
-INFO 03-10-2023 14:19:57 basehttp "GET /seminar2/authors HTTP/1.1" 301 0
-INFO 03-10-2023 14:19:57 views <WSGIRequest: GET '/seminar2/authors/'> request received
-INFO 03-10-2023 14:19:57 basehttp "GET /seminar2/authors/ HTTP/1.1" 200 0
-INFO 03-10-2023 14:33:57 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 14:34:02 views <WSGIRequest: GET '/seminar2/authors/'> request received
-INFO 03-10-2023 14:34:02 basehttp "GET /seminar2/authors/ HTTP/1.1" 200 84
-INFO 03-10-2023 15:32:11 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 15:32:39 views <WSGIRequest: GET '/seminar2/authors/'> request received
-INFO 03-10-2023 15:32:39 basehttp "GET /seminar2/authors/ HTTP/1.1" 200 84
-INFO 03-10-2023 15:32:45 basehttp "GET /seminar3 HTTP/1.1" 301 0
-INFO 03-10-2023 15:32:45 basehttp "GET /seminar3/ HTTP/1.1" 200 22
-INFO 03-10-2023 15:33:00 basehttp "GET /seminar3/home HTTP/1.1" 301 0
-INFO 03-10-2023 15:33:00 basehttp "GET /seminar3/home/ HTTP/1.1" 200 161
-INFO 03-10-2023 15:33:10 basehttp "GET /seminar3/about HTTP/1.1" 301 0
-INFO 03-10-2023 15:33:10 basehttp "GET /seminar3/about/ HTTP/1.1" 200 148
-INFO 03-10-2023 15:33:24 basehttp "GET /seminar3/heads_tails/5 HTTP/1.1" 301 0
-INFO 03-10-2023 15:33:24 basehttp "GET /seminar3/heads_tails/5/ HTTP/1.1" 200 267
-INFO 03-10-2023 15:33:36 basehttp "GET /seminar3/dice/4 HTTP/1.1" 301 0
-INFO 03-10-2023 15:33:36 basehttp "GET /seminar3/dice/4/ HTTP/1.1" 200 163
-INFO 03-10-2023 15:33:48 basehttp "GET /seminar3/rand/3 HTTP/1.1" 301 0
-INFO 03-10-2023 15:33:48 basehttp "GET /seminar3/rand/3/ HTTP/1.1" 200 163
-INFO 03-10-2023 15:33:59 basehttp "GET /seminar3/united/7 HTTP/1.1" 301 0
-INFO 03-10-2023 15:33:59 basehttp "GET /seminar3/united/7/ HTTP/1.1" 200 433
-INFO 03-10-2023 15:34:19 basehttp "GET /seminar3/author/2 HTTP/1.1" 301 0
-WARNING 03-10-2023 15:34:19 log Not Found: /seminar3/author/2/
-WARNING 03-10-2023 15:34:19 basehttp "GET /seminar3/author/2/ HTTP/1.1" 404 4125
-INFO 03-10-2023 15:34:27 basehttp "GET /seminar3/author/3 HTTP/1.1" 301 0
-WARNING 03-10-2023 15:34:27 log Not Found: /seminar3/author/3/
-WARNING 03-10-2023 15:34:27 basehttp "GET /seminar3/author/3/ HTTP/1.1" 404 4125
-INFO 03-10-2023 15:42:06 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 15:42:08 basehttp "GET /seminar3/author/3/ HTTP/1.1" 200 233
-INFO 03-10-2023 15:42:26 basehttp "GET /seminar3/post/1 HTTP/1.1" 301 0
-WARNING 03-10-2023 15:42:26 log Not Found: /seminar3/post/1/
-WARNING 03-10-2023 15:42:26 basehttp "GET /seminar3/post/1/ HTTP/1.1" 404 4313
-INFO 03-10-2023 15:46:36 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 15:46:42 basehttp "GET /seminar3/post/1/ HTTP/1.1" 200 686
-WARNING 03-10-2023 15:46:52 log Not Found: /seminar3/comment/
-WARNING 03-10-2023 15:46:52 basehttp "GET /seminar3/comment/ HTTP/1.1" 404 4789
-INFO 03-10-2023 15:46:56 basehttp "GET /seminar3/comment/2 HTTP/1.1" 301 0
-INFO 03-10-2023 15:46:56 basehttp "GET /seminar3/comment/2/ HTTP/1.1" 200 754
-INFO 03-10-2023 15:47:07 basehttp "GET /seminar3/basket/3 HTTP/1.1" 301 0
-INFO 03-10-2023 15:47:07 basehttp "GET /seminar3/basket/3/ HTTP/1.1" 200 1580
-WARNING 03-10-2023 15:47:19 log Not Found: /seminar3/sorted_basket/4
-WARNING 03-10-2023 15:47:19 basehttp "GET /seminar3/sorted_basket/4 HTTP/1.1" 404 4810
-WARNING 03-10-2023 15:47:27 log Not Found: /seminar3/sorted_basket/1
-WARNING 03-10-2023 15:47:27 basehttp "GET /seminar3/sorted_basket/1 HTTP/1.1" 404 4810
-INFO 03-10-2023 15:47:37 basehttp "GET /seminar3/sorted_basket/1/2 HTTP/1.1" 301 0
-INFO 03-10-2023 15:47:37 basehttp "GET /seminar3/sorted_basket/1/2/ HTTP/1.1" 200 259
-INFO 03-10-2023 15:47:47 autoreload D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\seminar3\urls.py changed, reloading.
-INFO 03-10-2023 15:47:48 autoreload Watching for file changes with StatReloader
-INFO 03-10-2023 15:47:52 autoreload D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\seminar3\urls.py changed, reloading.
-INFO 03-10-2023 15:47:54 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:15:49 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:16:07 basehttp "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING 03-10-2023 21:16:07 log Not Found: /media/ 
+WARNING 03-10-2023 21:16:07 basehttp "GET /media/%20 HTTP/1.1" 404 2942
+INFO 03-10-2023 21:18:55 autoreload D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO 03-10-2023 21:18:56 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:18:58 basehttp "GET /seminar4/product/1/ HTTP/1.1" 200 261
+WARNING 03-10-2023 21:18:58 log Not Found: /media/ 
+WARNING 03-10-2023 21:18:58 basehttp "GET /media/%20 HTTP/1.1" 404 2942
+INFO 03-10-2023 21:22:07 basehttp "GET /seminar4/product/1/ HTTP/1.1" 200 271
+WARNING 03-10-2023 21:22:07 log Not Found: /media/product-1.jpg
+WARNING 03-10-2023 21:22:07 basehttp "GET /media/product-1.jpg HTTP/1.1" 404 2974
+INFO 03-10-2023 21:22:24 autoreload D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO 03-10-2023 21:22:25 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:22:27 basehttp "GET /seminar4/product/1/ HTTP/1.1" 200 271
+WARNING 03-10-2023 21:22:27 log Not Found: /media/product-1.jpg
+WARNING 03-10-2023 21:22:27 basehttp "GET /media/product-1.jpg HTTP/1.1" 404 2974
+INFO 03-10-2023 21:22:30 basehttp "GET /seminar4/product/1/ HTTP/1.1" 200 271
+WARNING 03-10-2023 21:22:30 log Not Found: /media/product-1.jpg
+WARNING 03-10-2023 21:22:30 basehttp "GET /media/product-1.jpg HTTP/1.1" 404 2974
+WARNING 03-10-2023 21:22:30 log Not Found: /favicon.ico
+WARNING 03-10-2023 21:22:30 basehttp "GET /favicon.ico HTTP/1.1" 404 2784
+INFO 03-10-2023 21:22:45 autoreload D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO 03-10-2023 21:22:47 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:22:52 autoreload D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO 03-10-2023 21:22:53 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:22:56 basehttp "GET /seminar4/product/1/ HTTP/1.1" 200 271
+INFO 03-10-2023 21:22:56 basehttp "GET /media/product-1.jpg HTTP/1.1" 200 29095
+INFO 03-10-2023 21:23:38 autoreload D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO 03-10-2023 21:23:39 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:38:13 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:38:27 views <WSGIRequest: GET '/seminar4/products/'> request received
+INFO 03-10-2023 21:38:27 basehttp "GET /seminar4/products/ HTTP/1.1" 200 3274
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-1.jpg HTTP/1.1" 304 0
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-2.jpg HTTP/1.1" 200 21764
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-3.jpg HTTP/1.1" 200 20601
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-5.jpg HTTP/1.1" 200 21340
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-6.jpg HTTP/1.1" 200 27557
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-4.jpg HTTP/1.1" 200 35305
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-8.jpg HTTP/1.1" 200 30108
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-7.jpg HTTP/1.1" 200 38512
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-9.jpg HTTP/1.1" 200 22795
+INFO 03-10-2023 21:38:27 basehttp "GET /media/product-10.jpg HTTP/1.1" 200 47970
+INFO 03-10-2023 21:38:35 basehttp "GET /seminar4/product/10/ HTTP/1.1" 200 274
+INFO 03-10-2023 21:38:50 autoreload D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\main\settings.py changed, reloading.
+INFO 03-10-2023 21:38:51 autoreload Watching for file changes with StatReloader
+INFO 03-10-2023 21:39:14 views <WSGIRequest: GET '/seminar4/products/'> request received
+INFO 03-10-2023 21:39:14 basehttp "GET /seminar4/products/ HTTP/1.1" 200 3274
+INFO 03-10-2023 21:39:22 basehttp "GET /seminar4/product/2/ HTTP/1.1" 200 271

@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import colorlog as colorlog
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     'seminar1.apps.Seminar1Config',
     'seminar2.apps.Seminar2Config',
     'seminar3.apps.Seminar3Config',
+    'seminar4.apps.Seminar4Config',
 ]
 
 MIDDLEWARE = [
@@ -63,7 +65,8 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             BASE_DIR / 'templates',
-            BASE_DIR / 'seminar3/templates'
+            BASE_DIR / 'seminar3/templates',
+            BASE_DIR / 'seminar4/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -126,11 +129,25 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')    # for web dev
+STATIC_ROOT = '/'   # for local dev
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static/'),                   # for local dev, off on web
+    os.path.join(BASE_DIR, 'seminar3/static/seminar3/'),
+    os.path.join(BASE_DIR, 'seminar4/static/seminar4/'),
+]
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')    # for web dev
+# MEDIA_ROOT = '/'   # for local dev
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 LOGGING = {
     'version': 1,
@@ -177,6 +194,16 @@ LOGGING = {
             'propagate': True,
         },
         'seminar2': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'seminar3': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'seminar4': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
