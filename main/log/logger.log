@@ -145,3 +145,47 @@ INFO <WSGIRequest: GET '/seminar2/authors/'> request received
 INFO "GET /seminar2/authors/ HTTP/1.1" 200 0
 INFO <WSGIRequest: GET '/seminar2/authors/'> request received
 INFO "GET /seminar2/authors/ HTTP/1.1" 200 84
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO "GET /seminar2/authors/ HTTP/1.1" 200 84
+INFO "GET /seminar3 HTTP/1.1" 301 0
+INFO <WSGIRequest: GET '/seminar3/'> request received
+INFO "GET /seminar3/ HTTP/1.1" 200 22
+INFO "GET /seminar3/home HTTP/1.1" 301 0
+INFO <WSGIRequest: GET '/seminar3/home/'> request received
+INFO "GET /seminar3/home/ HTTP/1.1" 200 161
+INFO "GET /seminar3/about HTTP/1.1" 301 0
+INFO <WSGIRequest: GET '/seminar3/about/'> request received
+INFO "GET /seminar3/about/ HTTP/1.1" 200 148
+INFO "GET /seminar3/heads_tails/5 HTTP/1.1" 301 0
+INFO "GET /seminar3/heads_tails/5/ HTTP/1.1" 200 267
+INFO "GET /seminar3/dice/4 HTTP/1.1" 301 0
+INFO "GET /seminar3/dice/4/ HTTP/1.1" 200 163
+INFO "GET /seminar3/rand/3 HTTP/1.1" 301 0
+INFO "GET /seminar3/rand/3/ HTTP/1.1" 200 163
+INFO "GET /seminar3/united/7 HTTP/1.1" 301 0
+INFO "GET /seminar3/united/7/ HTTP/1.1" 200 433
+INFO "GET /seminar3/author/2 HTTP/1.1" 301 0
+WARNING Not Found: /seminar3/author/2/
+WARNING "GET /seminar3/author/2/ HTTP/1.1" 404 4125
+INFO "GET /seminar3/author/3 HTTP/1.1" 301 0
+WARNING Not Found: /seminar3/author/3/
+WARNING "GET /seminar3/author/3/ HTTP/1.1" 404 4125
+INFO "GET /seminar3/author/3/ HTTP/1.1" 200 233
+INFO "GET /seminar3/post/1 HTTP/1.1" 301 0
+WARNING Not Found: /seminar3/post/1/
+WARNING "GET /seminar3/post/1/ HTTP/1.1" 404 4313
+INFO "GET /seminar3/post/1/ HTTP/1.1" 200 686
+WARNING Not Found: /seminar3/comment/
+WARNING "GET /seminar3/comment/ HTTP/1.1" 404 4789
+INFO "GET /seminar3/comment/2 HTTP/1.1" 301 0
+INFO "GET /seminar3/comment/2/ HTTP/1.1" 200 754
+INFO "GET /seminar3/basket/3 HTTP/1.1" 301 0
+INFO "GET /seminar3/basket/3/ HTTP/1.1" 200 1580
+WARNING Not Found: /seminar3/sorted_basket/4
+WARNING "GET /seminar3/sorted_basket/4 HTTP/1.1" 404 4810
+WARNING Not Found: /seminar3/sorted_basket/1
+WARNING "GET /seminar3/sorted_basket/1 HTTP/1.1" 404 4810
+INFO "GET /seminar3/sorted_basket/1/2 HTTP/1.1" 301 0
+INFO "GET /seminar3/sorted_basket/1/2/ HTTP/1.1" 200 259
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\seminar3\urls.py changed, reloading.
+INFO D:\учёба\Python\19. Фреймворк Django\Семинары\Seminars\main\seminar3\urls.py changed, reloading.
