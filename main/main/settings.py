@@ -26,11 +26,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9uti_63oc%mvaor&*_n2%37ss$abclfc8kkazu4rv3)#ef+oo*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False  # True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '192.168.1.47',
+    'PavelSB.pythonanywhere.com',
 ]
 
 
@@ -38,9 +41,6 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'admin_material.apps.AdminMaterialDashboardConfig',
-    'material',
-    'material.frontend',
-    'material.admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -52,9 +52,12 @@ INSTALLED_APPS = [
     'seminar3.apps.Seminar3Config',
     'seminar4.apps.Seminar4Config',
     'seminar5.apps.Seminar5Config',
+    'seminar6.apps.Seminar6Config',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -74,6 +77,7 @@ TEMPLATES = [
             BASE_DIR / 'seminar3/templates',
             BASE_DIR / 'seminar4/templates',
             BASE_DIR / 'seminar5/templates',
+            BASE_DIR / 'seminar6/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -96,9 +100,21 @@ MATERIAL_ICON_SETS = ['material.icons']
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # }
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'PavelSB$default',
+        'USER': 'PavelSB',
+        # 'PASSWORD': os.getenv('MYSQL_PASSWORD'),
+        'PASSWORD': 'dblessons',
+        'HOST': 'PavelSB.mysql.pythonanywhere-services.com',
+        'OPTIONS': {
+            'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4',
+        },
     }
 }
 
@@ -138,11 +154,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')    # for web dev
-STATIC_ROOT = '/'   # for local dev
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')    # for web dev
+# STATIC_ROOT = '/'   # for local dev
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static/'),                   # for local dev, off on web
+    # os.path.join(BASE_DIR, 'static/'),                   # for local dev, off on web
     os.path.join(BASE_DIR, 'seminar3/static/seminar3/'),
     os.path.join(BASE_DIR, 'seminar4/static/seminar4/'),
 ]
@@ -218,6 +234,11 @@ LOGGING = {
             'propagate': True,
         },
         'seminar5': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'seminar6': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
