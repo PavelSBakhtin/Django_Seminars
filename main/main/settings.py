@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
+material install - pip install django-admin-material-dashboard
 """
 
 from pathlib import Path
@@ -36,6 +37,10 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_material.apps.AdminMaterialDashboardConfig',
+    'material',
+    'material.frontend',
+    'material.admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -46,6 +51,7 @@ INSTALLED_APPS = [
     'seminar2.apps.Seminar2Config',
     'seminar3.apps.Seminar3Config',
     'seminar4.apps.Seminar4Config',
+    'seminar5.apps.Seminar5Config',
 ]
 
 MIDDLEWARE = [
@@ -67,6 +73,7 @@ TEMPLATES = [
             BASE_DIR / 'templates',
             BASE_DIR / 'seminar3/templates',
             BASE_DIR / 'seminar4/templates',
+            BASE_DIR / 'seminar5/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -82,6 +89,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'main.wsgi.application'
 
+MATERIAL_ADMIN_SITE = 'material.admin.site'
+MATERIAL_ICON_SETS = ['material.icons']
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -138,7 +147,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'seminar4/static/seminar4/'),
 ]
 
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')    # for web dev
 # MEDIA_ROOT = '/'   # for local dev
 
@@ -204,6 +213,11 @@ LOGGING = {
             'propagate': True,
         },
         'seminar4': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'seminar5': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

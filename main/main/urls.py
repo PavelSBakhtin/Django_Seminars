@@ -22,11 +22,15 @@ from . import settings
 
 urlpatterns = [
     path('', index, name='index'),
-    path('admin/', admin.site.urls),
     path('seminar1/', include('seminar1.urls')),
     path('seminar2/', include('seminar2.urls')),
     path('seminar3/', include('seminar3.urls')),
     path('seminar4/', include('seminar4.urls')),
+    path('seminar5/', include('seminar5.urls')),
+]
+
+urlpatterns += [
+    path('admin/', admin.site.urls),
 ]
 
 if settings.DEBUG:
